@@ -1,0 +1,226 @@
+@media screen and (min-width: 480px) {
+    /*************************************
+    MAIN
+    *************************************/
+    body {
+        font-family: serif;
+    }
+
+    .main_body_div h3 {
+        font-size: 18px;
+        font-size: 3vw;
+    }
+
+    .main_body_div > p{
+        font-size: 15px;
+    }
+    #changeable_med_cond > p { /*for slidebar pages text inside div that changes content */
+        font-size: 15px;
+    }
+
+    .main_body_div {
+        width: 80%;
+        padding: 3.5% 10% 100px;
+    }
+
+
+
+    /*************************************
+    HEADER
+    *************************************/
+
+    #logo_and_slogan {
+        float: left;
+        width: 44%;
+        margin-left: 0;
+        padding-left: 2%;
+    }
+
+    #HSRNJ_header_contact_info {
+        display: inline-block;
+        float: right;
+        padding: 4% 2% 4% 0;
+        width: 42%;
+        line-height: 1.4;
+    }
+
+    #hsrnj_logo_img {
+        width: 100%;
+    }
+
+    h4.contact_header_info {
+        font-size: 2vw;
+        text-align: right;
+        text-decoration: underline;
+        color: #67727a;
+    }
+    h6.contact_header_info {
+        text-align: right;
+        font-size: 1.6vw;
+        color: #67727a;
+    }
+
+    #header_nav li {
+        outline: 2px solid #6991ac;
+        font-size: 10px;
+    }
+
+
+    .hidden_nav_li { /*only shown in nav above 480px view*/
+        display: list-item;
+    }
+    #therapy_nav_li {/*'therapy' gets replaced by 'hand therapy'*/
+        display: none;
+    }
+
+    .small_nav_links { /* 1 total */
+        width: 13.75%;
+    }
+
+    .large_nav_links { /* 3 total */
+        width:19.5%;
+    }
+
+    #medical_issues_li{/*5th nav button (biggest one) */
+        width: 27.75%;
+    }
+
+    /*******************************************************************************************************************
+    BIO SECTION
+    *******************************************************************************************************************/
+
+    #doc_pic{
+        max-width: 28%;
+    }
+
+    li.cv_def_hidden{
+        font-size: 15px;
+    }
+    h4.cv_def_hidden{
+        font-size: 18px;
+        margin:13px 0 5px;
+    }
+
+    /*******************************************************************************************************************
+    CONTACT US SECTION
+    *******************************************************************************************************************/
+    #appt_morristown {
+        display: inline-block;
+        width: 44%;
+        margin: 2% 0 0 3%;
+    }
+    #morristown_map {
+        height: 40vw;
+    }
+
+    #appt_union {
+        float: right;
+        text-align: center;
+        width: 44%;
+        margin: 2% 3% 0 0;
+    }
+
+    #union_map {
+        height: 40vw;
+    }
+
+    #contact_number{
+        font-size: 18px;
+    }
+}
+
+
+
+@media screen and (min-width: 660px) {
+    /*************************************
+    HEADER
+    *************************************/
+    #logo_and_slogan {
+        padding: 1% 0 0 2%;
+
+        width: 39%;
+        background-color: #fff;
+    }
+
+    #HSRNJ_header_contact_info {
+        padding: 3% 2% 2% 0;
+        width: 38%;
+    }
+
+    #hsrnj_logo_img {
+        max-width: 420px;
+    }
+
+    h4.contact_header_info {
+        font-size: 2.2vw;
+        line-height: 1.3;
+    }
+    h6.contact_header_info {
+        font-size: 1.5vw;
+    }
+
+
+    #header_nav li {
+        outline: 3px solid #6991ac;
+        font-size: 13px;
+
+    }
+
+
+    /*************************************
+    MAIN
+    *************************************/
+    .main_body_div {
+        padding: 2.5% 10% 100px;
+    }
+
+    .main_body_div > p{
+        font-size: 16px;
+    }
+    #changeable_med_cond > p { /*for slidebar pages text inside div that changes content */
+        font-size: 16px;
+    }
+
+
+    /*******************************************************************************************************************
+    BIOGRAPHY SECTION
+    *******************************************************************************************************************/
+    #doc_bio h3 {
+        font-size: 26px;
+    }
+    #doc_bio h4:not(.cv_def_hidden){
+        font-size: 19px;
+        display: inline-block;
+        margin: 18px 0 0 18px;
+    }
+
+    img.awardsImg {
+        margin: 1%;
+        height: 165px;
+        width: 110px;
+        outline: 4px solid silver;
+    }
+
+    #doc_pic{
+        max-width: 22%;
+    }
+
+    li.cv_def_hidden{
+        font-size: 16px;
+    }
+    h4.cv_def_hidden{
+        font-size: 20px;
+        margin:15px 0 5px;
+    }
+
+    /*******************************************************************************************************************
+        CONTACT SECTION
+     *******************************************************************************************************************/
+
+    #contact_number{
+        font-size: 20px;
+    }
+
+}
+
+
